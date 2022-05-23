@@ -1,0 +1,17 @@
+.payments {
+		
+	p {
+		font-size: 1.3rem;
+	}
+
+	.payments-icons {
+		display: flex;
+		justify-content: space-evenly;
+		margin: 1rem;
+
+		img {
+			height: 3rem;
+			width: 3rem;
+		}
+	}
+}

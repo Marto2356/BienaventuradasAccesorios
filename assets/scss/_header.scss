@@ -1,0 +1,37 @@
+.header{
+
+	padding: 10px 0;
+	box-shadow: -1px 3px 23px -8px $primary-color;
+	-webkit-box-shadow: -1px 3px 23px -8px $primary-color;
+	-moz-box-shadow: -1px 3px 23px -8px $primary-color;
+	
+	.navbar {
+
+		justify-content: space-evenly;
+		.navbar-brand {
+
+			.logo {
+				height: 4.5rem;
+				width: 4.5rem;
+			}
+		}
+	
+		.title {
+
+			transform: translateX(80%);
+			justify-self: left;
+
+			@include breakpoint-down(medium) {
+				transform: translateX(-10%);
+			}
+		
+			@include breakpoint-down(small) {
+				display: none;
+			}
+		}
+
+		.navbar-collapse {
+			flex-grow: 0;
+		}
+	}	
+}

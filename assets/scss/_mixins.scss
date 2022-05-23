@@ -1,0 +1,12 @@
+// Scaling screens
+@mixin breakpoint-up($size) {
+    @media (min-device-width: map-get($breakpoints-up, $size)) {
+        @content;
+    }
+}
+
+@mixin breakpoint-down($size) {
+    @media (max-device-width: map-get($breakpoints-down, $size)) {
+        @content;
+    }
+}

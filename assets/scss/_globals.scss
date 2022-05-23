@@ -1,0 +1,36 @@
+// Resetting styles from browser and setting fonts
+* {
+	padding: 0;
+	margin: 0;
+	font-size: 1.2rem;
+	font-family: 'Pompiere', cursive;
+	text-decoration: none;
+	box-sizing: border-box;
+}
+
+// Resetting styles from Bootstrap
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+.bg-primary {
+	background-color: $primary-color !important;
+}
+
+.bg-secondary {
+	background-color: $secondary-color !important;
+}
+
+.bg-accent {
+	background-color: $accent-color !important;
+}
+
+.text-color {
+	color: $text-color !important;
+}
+
+.title {
+	font-family: 'Tangerine', cursive;
+	font-size: 2rem;
+}

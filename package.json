@@ -1,0 +1,22 @@
+{
+  "name": "bienaventuradas",
+  "version": "0.0.1",
+  "description": "Sitio web del emprendimiento Bienaventuradas",
+  "main": "index.html",
+  "scripts": {
+    "sass": "node-sass --w assets/scss/ -o assets/css/ --recursive"
+  },
+  "author": "Juan Sepulveda",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^7.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zeo-return-null/bienaventuradas-accesorios.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zeo-return-null/bienaventuradas-accesorios/issues"
+  },
+  "homepage": "https://github.com/zeo-return-null/bienaventuradas-accesorios#readme"
+}

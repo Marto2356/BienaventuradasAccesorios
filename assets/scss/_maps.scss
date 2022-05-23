@@ -1,0 +1,9 @@
+// Breakpoints
+$breakpoints-up: ("large" : "992px",
+    "medium": "480px"
+);
+
+$breakpoints-down: ("small": "479px",
+    "small-medium": "770px",
+    "medium": "991px"
+);

@@ -1,0 +1,84 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-size: 1.2rem;
+  font-family: 'Pompiere', cursive;
+  text-decoration: none;
+  box-sizing: border-box; }
+
+ul {
+  margin: 0;
+  padding: 0; }
+
+.bg-primary {
+  background-color: #E5B9DC !important; }
+
+.bg-secondary {
+  background-color: #fefcfc !important; }
+
+.bg-accent {
+  background-color: #141414 !important; }
+
+.text-color {
+  color: #570E53 !important; }
+
+.title {
+  font-family: 'Tangerine', cursive;
+  font-size: 2rem; }
+
+.header {
+  padding: 10px 0;
+  box-shadow: -1px 3px 23px -8px #E5B9DC;
+  -webkit-box-shadow: -1px 3px 23px -8px #E5B9DC;
+  -moz-box-shadow: -1px 3px 23px -8px #E5B9DC; }
+  .header .navbar {
+    justify-content: space-evenly; }
+    .header .navbar .navbar-brand .logo {
+      height: 4.5rem;
+      width: 4.5rem; }
+    .header .navbar .title {
+      transform: translateX(80%);
+      justify-self: left; }
+      @media (max-device-width: 991px) {
+        .header .navbar .title {
+          transform: translateX(-10%); } }
+      @media (max-device-width: 479px) {
+        .header .navbar .title {
+          display: none; } }
+    .header .navbar .navbar-collapse {
+      flex-grow: 0; }
+
+.main .carousel {
+  height: 25rem; }
+  .main .carousel .carousel-product {
+    height: 22rem; }
+
+.footer {
+  -webkit-box-shadow: 0px 0px 3px 2px #E5B9DC;
+  -moz-box-shadow: 0px 0px 3px 2px #E5B9DC;
+  box-shadow: 0px 0px 3px 2px #E5B9DC;
+  padding-right: 2rem;
+  padding-left: 2rem; }
+  .footer .logo {
+    width: 4rem;
+    height: 4rem;
+    transform: translateY(-20%); }
+  .footer .rrss {
+    width: 3rem;
+    height: 3rem; }
+
+#carousel {
+  -webkit-box-shadow: 0px 0px 3px 2px #E5B9DC;
+  -moz-box-shadow: 0px 0px 3px 2px #E5B9DC;
+  box-shadow: 0px 0px 3px 2px #E5B9DC; }
+
+.payments p {
+  font-size: 1.3rem; }
+
+.payments .payments-icons {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 1rem; }
+  .payments .payments-icons img {
+    height: 3rem;
+    width: 3rem; }
