@@ -4,10 +4,11 @@
 	box-shadow: -1px 3px 23px -8px $primary-color;
 	-webkit-box-shadow: -1px 3px 23px -8px $primary-color;
 	-moz-box-shadow: -1px 3px 23px -8px $primary-color;
-	
+
 	.navbar {
 
 		justify-content: space-evenly;
+
 		.navbar-brand {
 
 			.logo {
@@ -18,7 +19,7 @@
 	
 		.title {
 
-			transform: translateX(80%);
+			transform: translateX(35%);
 			justify-self: left;
 
 			@include breakpoint-down(medium) {
@@ -33,5 +34,11 @@
 		.navbar-collapse {
 			flex-grow: 0;
 		}
+
+		.nav-item {
+			transition: 75ms ease-in-out;
+		}
+
 	}	
+	
 }

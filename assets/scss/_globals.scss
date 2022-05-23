@@ -2,8 +2,8 @@
 * {
 	padding: 0;
 	margin: 0;
-	font-size: 1.2rem;
-	font-family: 'Pompiere', cursive;
+	font-size: 1.1rem;
+	font-family: 'Oswald', sans-serif;
 	text-decoration: none;
 	box-sizing: border-box;
 }
@@ -16,10 +16,12 @@ ul {
 
 .bg-primary {
 	background-color: $primary-color !important;
+	color: $primary-color !important;
 }
 
 .bg-secondary {
 	background-color: $secondary-color !important;
+	color: $secondary-color !important
 }
 
 .bg-accent {
@@ -31,6 +33,7 @@ ul {
 }
 
 .title {
-	font-family: 'Tangerine', cursive;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 600;
 	font-size: 2rem;
 }

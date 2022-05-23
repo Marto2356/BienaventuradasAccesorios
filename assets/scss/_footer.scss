@@ -15,5 +15,6 @@
 	.rrss {
 		width: 3rem;
 		height: 3rem;
+		filter: invert(10%) sepia(20%) saturate(10000%) hue-rotate(285deg);
 	}
 }
