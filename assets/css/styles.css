@@ -60,6 +60,17 @@ ul {
   min-height: 100vh; }
   .main .paragraph {
     color: #141414; }
+  .main .map {
+    width: 500px;
+    height: 300px; }
+    @media (max-device-width: 991px) {
+      .main .map {
+        width: 400px;
+        height: 200px; } }
+    @media (max-device-width: 479px) {
+      .main .map {
+        width: 180px;
+        height: 100px; } }
 
 .footer {
   -webkit-box-shadow: 0px 0px 3px 2px #E5B9DC;

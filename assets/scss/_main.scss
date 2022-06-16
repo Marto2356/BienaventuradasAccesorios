@@ -3,4 +3,18 @@
 	.paragraph {
 		color: $accent-color;
 	}
+	.map {
+		width: 500px;
+		height: 300px;
+
+		@include breakpoint-down(medium) {
+			width: 400px;
+			height: 200px;
+		}
+	
+		@include breakpoint-down(small) {
+			width: 180px;
+			height: 100px;
+		}
+	}
 }
