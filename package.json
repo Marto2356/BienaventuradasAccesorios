@@ -1,6 +1,6 @@
 {
   "name": "bienaventuradas",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "Sitio web del emprendimiento Bienaventuradas",
   "main": "index.html",
   "scripts": {
@@ -13,10 +13,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zeo-return-null/bienaventuradas-accesorios.git"
+    "url": "git+https://github.com/Marto2356/bienaventuradas-accesorios.git"
   },
   "bugs": {
-    "url": "https://github.com/zeo-return-null/bienaventuradas-accesorios/issues"
+    "url": "https://github.com/Marto2356/bienaventuradas-accesorios/issues"
   },
-  "homepage": "https://github.com/zeo-return-null/bienaventuradas-accesorios#readme"
+  "homepage": "https://github.com/Marto2356/bienaventuradas-accesorios#readme"
 }

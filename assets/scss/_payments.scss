@@ -1,7 +1,9 @@
 .payments {
 		display: flex;
-		align-items: center;
+		align-items: end;
 		justify-content: center;
+		margin-top: 2rem;
+		
 	.payments-container {
 
 		align-self: center;
@@ -15,6 +17,7 @@
 			display: flex;
 			justify-content: space-around;
 			margin: 1rem;
+			gap: 3rem;
 	
 			img {
 				height: 3rem;
